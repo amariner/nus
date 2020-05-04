@@ -44,6 +44,7 @@ export const StyledHeader = styled.header`
     a{
       height: 100%;
       font-size: 0.8rem;
+      font-weight: 400;
     }
   `}
   ${above.large`
@@ -73,7 +74,7 @@ export const StyledJumbo = styled.div`
   & h2 {
     margin: 0;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.8rem;
   };
   & small{
     font-weight: 100;
@@ -83,38 +84,38 @@ export const StyledJumbo = styled.div`
     width: 35vw;
   };
   ${above.medium`
-    padding: 2rem 4rem;
+    padding: 4rem 4rem;
     flex-direction: row;
     & h2 {
-      font-size: 1rem;
+      font-size: 1.8rem;
     };
     & small{
       font-size: 0.8rem;
     };
   `}
   ${above.mediumL`
-    padding: 2rem 4rem;
+    padding: 4rem 4rem;
     flex-direction: row;
     & h2 {
-      font-size: 1rem;
+      font-size: 1.8rem;
     };
     & small{
       font-size: 0.8rem;
     };
   `}
   ${above.large`
-    padding: 2rem 10rem;
+    padding: 4rem 10rem;
     flex-direction: row;
     & h2 {
       margin: 0;
       font-weight: 500;
-      font-size: 2rem;
+      font-size: 1.8rem;
     };
   `}
 
   &:before{
     content: " ";
-    background-image: url(https://i.postimg.cc/JnmrStwZ/nus-atelier-moda-sostenible-lq.jpg);
+    background-image: url(https://i.postimg.cc/wMMKbg1R/IMG-7323-lq.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -147,7 +148,7 @@ export const StyledProducts = styled.div`
   padding: 2rem 1rem 5rem 1rem;
   h2 {
     color: ${colors.darkBlue};
-    font-size: 2rem;
+    font-size: 1rem;
   }
   & img {
     width: 100%;
@@ -168,12 +169,12 @@ export const StyledProducts = styled.div`
       margin: 0;
       color: ${colors.darkBlue};
       font-weight: 500;
-      font-size: 1.2rem;
+      font-size: 0.9rem;
     }
     small {
       color: ${colors.darkBlue};
       font-weight: 500;
-      font-size: 1.2rem;
+      font-size: 0.9rem;
     }
     a {
       text-decoration: none;
@@ -191,7 +192,7 @@ export const StyledProducts = styled.div`
   }
   section {
     display: grid;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     padding: 0;
@@ -314,7 +315,7 @@ export const MenuItem = styled.li`
     width: 0.4rem;
   }
   ${above.medium`
-    border-right: ${({ margin }) => (margin ? "1px solid #1c3643" : "")};
+    border-right: ${({ margin }) => (margin ? "0.5px solid #e2e2e2" : "")};
     padding: ${({ margin }) => (margin ? "0 26px 0 26px" : "0 0 0 26px")};
     & img{
       margin-right: 5px; 
@@ -453,7 +454,7 @@ export const Purchase = styled.div`
     margin: 2px 0;
   }
   span {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 `
 

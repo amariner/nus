@@ -19,6 +19,9 @@ const Header = () => {
           <MenuItem margin>
             <Link to="/">Productos</Link>
           </MenuItem>
+          <MenuItem margin>
+            <Link to="/filosofia">Filosofía</Link>
+          </MenuItem>
          
           <MenuItem>
             <Link to="/cart">
